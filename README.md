@@ -5,7 +5,7 @@ Sandbox for the `simple-markdown` template type - a pandoc-based single-page sit
 ## Build
 
 ```bash
-pandoc index.md -o index.html --css style.css --standalone -f gfm
+pandoc index.md -o index.html --template=html.template.pandoc --standalone -f gfm
 ```
 
 ## Deploy
