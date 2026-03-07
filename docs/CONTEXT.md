@@ -2,7 +2,7 @@
 phase: 0
 phase_name: Pandoc Template Sandbox
 updated: 2026-03-06
-last_commit: 9a30093
+last_commit: 6b49dfa
 last_entry: 1
 ---
 
