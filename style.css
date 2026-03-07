@@ -1,0 +1,78 @@
+:root {
+  --font-body: p22-stickley-pro-text, neue-kabel, Palatino, Georgia, serif;
+  --font-heading: neue-kabel, 'Gill Sans', 'Helvetica Neue', sans-serif;
+
+  --color-bg: #fffff8;
+  --color-text: #111;
+  --color-muted: #666;
+  --color-link: #555;
+  --color-link-hover: #222;
+  --color-border: #ccc;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-bg: #1a1d23;
+    --color-text: #dad8d8;
+    --color-muted: #888;
+    --color-link: #aaa;
+    --color-link-hover: #ccc;
+    --color-border: #333;
+  }
+}
+
+html {
+  font-size: clamp(1rem, .8rem + 1vw, 1.25rem);
+}
+
+body {
+  --measure: min(90%, 48ch);
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-body);
+  margin: 0;
+  width: 100vw;
+  box-sizing: content-box;
+  margin-inline: auto;
+  max-inline-size: var(--measure);
+  margin-bottom: 3em;
+  padding: 0 1rem;
+}
+
+* {
+  margin-block: 0;
+}
+
+* + * {
+  margin-block-start: 1rem;
+}
+
+p {
+  line-height: 1.6em;
+}
+
+h1, h2 {
+  font-family: var(--font-heading);
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 3em;
+  padding-top: 1em;
+  letter-spacing: -1.5px;
+}
+
+h2 {
+  margin-bottom: .25em;
+  text-align: center;
+  margin-top: 2em;
+}
+
+a {
+  color: var(--color-link);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--color-link-hover);
+}
