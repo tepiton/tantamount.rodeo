@@ -4,7 +4,7 @@
 
 | # | Name | Status | Commits |
 |---|------|--------|---------|
-| 0 | Pandoc Template Sandbox | 🔵 Current | 73601f9-HEAD |
+| 0 | Pandoc Template Sandbox | 🔵 Current | 73601f9-5693da9 |
 
 ## Current Phase: Pandoc Template Sandbox
 
@@ -18,12 +18,12 @@
 
 ### Phase 0b: Pandoc Template Implementation
 
-- [ ] Create `index.md` with placeholder content
-- [ ] Create `style.css`
-- [ ] Create `.github/workflows/pages.yml` (pandoc build + GitHub Pages deploy)
-- [ ] Add `.nojekyll`
-- [ ] Remove old placeholder `index.html`
-- [ ] Verify Pages deploys correctly
+- [x] Create `index.md` with placeholder content
+- [x] Create `style.css`
+- [x] Create `.github/workflows/pages.yml` (pandoc build + GitHub Pages deploy)
+- [x] Add `.nojekyll`
+- [x] Remove old placeholder `index.html`
+- [x] Verify Pages deploys correctly
 
 ### Phase 0c: Mimeo Integration Design
 
@@ -38,4 +38,5 @@
 - Build command: `pandoc index.md -o index.html --css style.css --standalone`
 - Deploy source: GitHub Actions (not branch)
 - No npm, no Node version matrix -- fast and simple
+- Build + deploy total: ~20s
 - See PLAN.md for full context on mimeo integration requirements
