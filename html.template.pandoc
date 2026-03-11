@@ -34,7 +34,7 @@ $endfor$
 
   <style>
 :root {
-  --font-body: Georgia, serif;
+  --font-body: Baskerville, Georgia, serif;
   --font-heading: 'Gill Sans', 'Helvetica Neue', sans-serif;
 
   --color-bg: #fffff8;
@@ -81,10 +81,12 @@ html {
 }
 
 body {
-  --measure: min(90%, 48ch);
+  --measure: min(90%, 54ch);
+  --line-height: 1.6;
   background-color: var(--color-bg);
   color: var(--color-text);
   font-family: var(--font-body);
+  line-height: var(--line-height);
   margin: 0;
   width: 100vw;
   box-sizing: content-box;
