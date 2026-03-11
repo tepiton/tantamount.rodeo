@@ -34,8 +34,8 @@ $endfor$
 
   <style>
 :root {
-  --font-body: p22-stickley-pro-text, neue-kabel, Palatino, Georgia, serif;
-  --font-heading: neue-kabel, 'Gill Sans', 'Helvetica Neue', sans-serif;
+  --font-body: Georgia, serif;
+  --font-heading: 'Gill Sans', 'Helvetica Neue', sans-serif;
 
   --color-bg: #fffff8;
   --color-text: #111;
@@ -77,7 +77,7 @@ body.dark-mode {
 }
 
 html {
-  font-size: clamp(1rem, .8rem + 1vw, 1.25rem);
+  font-size: clamp(.8rem, .8rem + 1vw, 1.25rem);
 }
 
 body {
