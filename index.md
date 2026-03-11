@@ -25,32 +25,32 @@ The following Obsidian notes form the raw material for this project.
 
 ### The Funeral Sequence (March 2026)
 
-- [[on attending my father's funeral]] — Arrival in Texas. Humidity, diesel, overtipping, solitude. Preparing eulogies no one asked for. Not sure why I came.
-- [[more musings]] — Waiting for acknowledgment that never came. His fondest childhood memory: his mother screaming “don’t hit him” in Polish. He sacrificed me to protect his ego.
-- [[thoughts on the burial of my father]] — Arrived late. He was already in the ground. Four rabbis. Everyone said what a great man he was. He was good to everyone else. Just not to me.
-- [[you're not supposed to know]] — He was in memory care since the beginning of the year. Everyone knew but me. Mirrors the beach weekend exclusion. Information gets gatekept in my family.
-- [[hometown for my father's funeral]] — Musing on the Akedah. The weight of honor (כבד). The mitzvah is between obligations to God and boundaries for humans. Trying to make art out of pain because sense doesn’t work.
-- [[this is just to say]] — A poem after William Carlos Williams. “forgive me / I feel nothing / I am so bitter / and so cold”
+- *on attending my father's funeral* — Arrival in Texas. Humidity, diesel, overtipping, solitude. Preparing eulogies no one asked for. Not sure why I came.
+- *more musings* — Waiting for acknowledgment that never came. His fondest childhood memory: his mother screaming “don’t hit him” in Polish. He sacrificed me to protect his ego.
+- *thoughts on the burial of my father* — Arrived late. He was already in the ground. Four rabbis. Everyone said what a great man he was. He was good to everyone else. Just not to me.
+- *you're not supposed to know* — He was in memory care since the beginning of the year. Everyone knew but me. Mirrors the beach weekend exclusion. Information gets gatekept in my family.
+- *hometown for my father's funeral* — Musing on the Akedah. The weight of honor (כבד). The mitzvah is between obligations to God and boundaries for humans. Trying to make art out of pain because sense doesn’t work.
+- *this is just to say* — A poem after William Carlos Williams. “forgive me / I feel nothing / I am so bitter / and so cold”
 
 ### The Mother Material
 
-- [[note to anita]] — Direct address. Why are all the stories about me stories about me crying. The carpool abandonment. “I just don’t remember.” The slap at a family gathering. “You seemed to think that being a parent gave you property rights over me.”
-- [[the last thing I heard my mother say to me]] — “I am your mother! I can say whatever I want to you!” She’s still alive. I just can’t hear her anymore.
+- *note to anita* — Direct address. Why are all the stories about me stories about me crying. The carpool abandonment. “I just don’t remember.” The slap at a family gathering. “You seemed to think that being a parent gave you property rights over me.”
+- *the last thing I heard my mother say to me* — “I am your mother! I can say whatever I want to you!” She’s still alive. I just can’t hear her anymore.
 
 ### The Pepito Stories
 
-- [[Pepito camping]] — Pepito almost goes camping. Don Felipe tells another father: “La verdad es que Pepito es un pendejito.” The boys go without him. He gets long pants. The deal was for 200 pesos.
-- [[PEPITO]] — Project container for the Pepito stories. Status: dormant.
+- *Pepito camping* — Pepito almost goes camping. Don Felipe tells another father: “La verdad es que Pepito es un pendejito.” The boys go without him. He gets long pants. The deal was for 200 pesos.
+- *PEPITO* — Project container for the Pepito stories. Status: dormant.
 
 ### The Origin
 
-- [[HOLON 1962]] — A half-year in Holon, from one to one-and-a-half years old. The crucible of my character. Something happened to me and to Edna. I don’t know what. Something about safety, security, affection, love. Irrevocable.
+- *HOLON 1962* — A half-year in Holon, from one to one-and-a-half years old. The crucible of my character. Something happened to me and to Edna. I don’t know what. Something about safety, security, affection, love. Irrevocable.
 
 ### The Legacy
 
-- [[Gil 2025]] — “I used to carry you around like that.” “Why are you like this?” 26 years. Pride. Companionship. “It didn’t feel like fatherly advice. It was more like info dumping on one of my preferred topics, and I knew you would accept it as information.”
-- [[Gil & Clarke's Ceremony]] — Brit Ahuvim. I officiated. The brachot. The chuppah. Tradition handed forward as gift, not demand.
-- [[Gil world-building]] — Text messages about gods, empires, TTRPGs. Thinking together. “Thank you for letting me run on about my special interest.” “You know I love this special interest.”
+- *Gil 2025* — “I used to carry you around like that.” “Why are you like this?” 26 years. Pride. Companionship. “It didn’t feel like fatherly advice. It was more like info dumping on one of my preferred topics, and I knew you would accept it as information.”
+- *Gil & Clarke's Ceremony* — Brit Ahuvim. I officiated. The brachot. The chuppah. Tradition handed forward as gift, not demand.
+- *Gil world-building* — Text messages about gods, empires, TTRPGs. Thinking together. “Thank you for letting me run on about my special interest.” “You know I love this special interest.”
 
 -----
 
@@ -146,10 +146,10 @@ These aren’t competing projects. They’re four ways of approaching the same m
 
 |Register           |Mode                |Distance                             |Material                                                                        |
 |-------------------|--------------------|-------------------------------------|--------------------------------------------------------------------------------|
-|Holon              |Mystery, fragment   |Before memory – can’t access directly|[[HOLON 1962]]                                                                  |
-|Pepito             |Fable, mockery      |Third person, past tense, sardonic   |[[Pepito camping]], [[PEPITO]]                                                  |
-|The funeral / Anita|Raw, direct address |Present tense, unmediated            |Funeral notes, [[note to anita]], [[the last thing I heard my mother say to me]]|
-|Gil                |Tenderness, evidence|Intimate, casual, warm               |[[Gil 2025]], [[Gil & Clarke's Ceremony]], [[Gil world-building]]               |
+|Holon              |Mystery, fragment   |Before memory – can’t access directly|*HOLON 1962*                                                                  |
+|Pepito             |Fable, mockery      |Third person, past tense, sardonic   |*Pepito camping*, *PEPITO*                                                  |
+|The funeral / Anita|Raw, direct address |Present tense, unmediated            |Funeral notes, *note to anita*, *the last thing I heard my mother say to me*|
+|Gil                |Tenderness, evidence|Intimate, casual, warm               |*Gil 2025*, *Gil & Clarke's Ceremony*, *Gil world-building*               |
 
 
 
