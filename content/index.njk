@@ -1,0 +1,37 @@
+---js
+const eleventyNavigation = {
+	key: "Home",
+	order: 1
+};
+
+const numberOfLatestPostsToShow = 5;
+---
+
+ {{ content | safe }}
+
+ <div style="padding: 1em 2em">
+	<blockquote style="margin:0;font-size:0.875em; max-width: 40ch">
+		I know a little bit about a lot of things.
+ </blockquote>
+</div>
+
+
+{% set postsCount = collections.posts | length %}
+{% set latestPostsCount = postsCount | min(numberOfLatestPostsToShow) %}
+{% set postslist = collections.posts | head(-1 * numberOfLatestPostsToShow) %}
+{% set postslistCounter = postsCount %}
+{% include "postslist.njk" %}
+
+{% set morePosts = postsCount - numberOfLatestPostsToShow %}
+{% if morePosts > 0 %}
+<p>{{ morePosts }} more <a href="posts.njk">post{% if morePosts != 1 %}s{% endif %}</a></p>
+{% endif %}
+
+{# List every content page in the project #}
+{#
+<ul>
+	{%- for entry in collections.all %}
+	<li><a href="{{ entry.url }}"><code>{{ entry.url }}</code></a></li>
+	{%- endfor %}
+</ul>
+#}

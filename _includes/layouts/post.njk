@@ -1,0 +1,46 @@
+---
+layout: layouts/base.njk
+---
+{# Only include the syntax highlighter CSS on blog posts, included with the CSS per-page bundle #}
+<style>{% include "node_modules/prismjs/themes/prism-okaidia.css" %}</style>
+<style>{% include "css/prism-diff.css" %}</style>
+<h1>{{ title }}</h1>
+
+<ul class="post-metadata" style="font-style:italic;">
+	<li>{{author or metadata.author.name }}</li>
+	<li>•</li>
+	<li><time datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate }}</time></li>
+</ul>
+<br>
+<ul class="post-metadata">
+	{%- for tag in tags | filterTagList | sort %}
+	{%- set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
+	<li><a href="{{ tagUrl }}" class="post-tag">{{ tag }}</a>{%- if not loop.last %} {% endif %}</li>
+	{%- endfor %}
+</ul>
+
+{%- set footnoteData = content | separateFootnotes -%}
+
+{# Enhanced content with inline footnote popovers #}
+{{ footnoteData.content | safe }}
+
+{# Traditional footnotes as fallback, hidden by default #}
+{%- if footnoteData.footnotes -%}
+<div id="footnotes-section" class="footnotes-fallback" style="display: none;">
+  {{ footnoteData.footnotes | safe }}
+</div>
+
+{# Accessible screen reader notice #}
+<div class="sr-only" aria-live="polite" id="footnote-announcer"></div>
+{%- endif -%}
+
+{%- if collections.posts %}
+{%- set previousPost = collections.posts | getPreviousCollectionItem %}
+{%- set nextPost = collections.posts | getNextCollectionItem %}
+{%- if nextPost or previousPost %}
+<ul class="links-nextprev">
+	{%- if previousPost %}<li class="links-nextprev-prev">← the past<br> <a href="{{ previousPost.url }}">{{ previousPost.data.title }}</a></li>{% endif %}
+	{%- if nextPost %}<li class="links-nextprev-next">the future →<br><a href="{{ nextPost.url }}">{{ nextPost.data.title }}</a></li>{% endif %}
+</ul>
+{%- endif %}
+{%- endif %}
